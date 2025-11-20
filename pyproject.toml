@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+
+name = "torch-datakit"
+
+version = "0.1.0"
+
+description = "Dataset tool for pytorch"
+
+license = { text = "MIT License" }
+
+authors = [
+    { name = "Naturesh" },
+]
+
+urls = { Repository = "https://github.com/naturesh/torch-datakit" }
+
+requires-python = ">=3.8"
+
+dependencies = []
+
+readme = "README.md"
+
+
+[tool.setuptools.packages]
+find = {}
